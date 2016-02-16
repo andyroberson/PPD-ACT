@@ -1,0 +1,166 @@
+.flexslider {
+    overflow: none;
+    height:400px;
+    width: 1025px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    text-align: center;
+    border: 2px solid #282884;
+    border-radius: 15px;
+}
+.slides, .slides li {
+  height:400px;
+}
+.flex-caption {
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  color: #fff;
+}
+li.css a {
+  border-radius: 0;
+}
+
+.image {
+  height: 400px;
+  width: 1025px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#image1 {
+  margin-left: auto;
+  margin-right: auto;
+  background: url("../images/team-pics/US-team-large.jpg");
+  background-size: 581px 400px;
+  height: 400px;
+  width: 581px;
+  margin-bottom: -50px;
+}
+
+#image2 {
+  margin-left: auto;
+  margin-right: auto;
+  background: url("../images/team-pics/UK-team.jpg");
+  background-size: 1025px 400px;
+  width: 1025px;
+  height: 400px;
+  margin-bottom: -50px;
+}
+
+@media screen and (max-width: 1096px) {
+    #image2 {
+      background-size: 768px 300px;
+      width: 768px;
+      height: 300px;
+      margin-top: 20px;
+      margin-bottom: 25px;
+    }
+
+    .image {
+      width: 768px;
+    }
+
+    .flexslider {
+      width: 768px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    #image2 {
+      background-size: 581px 226px;
+      width: 581px;
+      height: 226px;
+      margin-top: 65px;
+      margin-bottom: 60px;
+    }
+
+    .image {
+      width: 581px;
+    }
+
+    .flexslider {
+      width: 581px;
+    }
+}
+
+.aus-team {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 100px;
+  height: 225px;
+  margin-bottom: 60px;
+  margin-top: 65px;
+}
+
+@media screen and (max-width: 581px) {
+  #image1 {
+    background-size: 300px 207px;
+    width: 300px;
+    height: 207px;
+    margin-top:25px;
+  }
+
+  #image2 {
+    background-size: 300px 117px;
+    width: 300px;
+    height: 117px;
+    margin-top: 45px;
+    margin-bottom: 40px;
+  }
+
+  .aus-team {
+    margin-top: 0px;
+    margin-bottom: -2px;
+  }
+}
+
+
+#anne {
+  background: url("../images/AusPeople/Anne_Buist.jpg");
+  background-size: 200px 225px;
+  width: 200px;
+}
+
+#enda {
+  background: url("../images/AusPeople/Enda_Byrne.jpg");
+  background-size: 225px 225px;
+  width: 225px;
+}
+
+#ian {
+  background: url("../images/AusPeople/Ian_Hickie.jpg");
+  background-size: 225px 225px;
+  width: 225px;
+}
+
+#janette {
+  background: url("../images/AusPeople/Janette_Milgrom.jpg");
+  background-size: 211px 225px;
+  width: 211px;
+}
+
+#julio {
+  background: url("../images/AusPeople/Julio_Licinio.jpg");
+  background-size: 225px 225px;
+  width: 225px;
+}
+
+#naomi {
+  background: url("../images/AusPeople/Naomi_Wray.jpg");
+  background-size: 219px 225px;
+  width: 219px;
+}
+
+#nick {
+  background: url("../images/AusPeople/Nick_Martin.jpg");
+  background-size: 225px 225px;
+  width: 225px;
+}
+
+@media screen and (max-width: 300px) {
+  #image1, #image2, .image, .flexslider, .aus-team {display: none;}
+}

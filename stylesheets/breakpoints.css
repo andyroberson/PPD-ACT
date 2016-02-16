@@ -1,0 +1,780 @@
+/*TODO
+
+-hacky version of code
+still to do: kill discrepancies, organize better.
+
+
+*/
+
+
+/*literally only for the about page / dna*/
+@media screen and (max-width: 2071px) {
+  #study {
+    font-size: 27px;
+  }
+}
+
+@media screen and (max-width: 1735px) {
+
+  #study {
+    font-size: 25px;
+    margin-left: -100px;
+  }
+
+  .menu-text {
+    margin-right: 20px;
+    margin-left: -40px;
+  }
+
+  .logo {
+    margin-left: 20px;
+    margin-right: -20px;
+  }
+
+  .dna-white {
+      background-size: 250px 250px;
+      background-position: center;
+      height: 350px;
+      width: 350px;
+      border-radius: 200px;
+      margin-left: -5px;
+  }
+
+  .radial-bg {
+    height: 350px;
+    width: 350px;
+    border-radius: 200px;
+    margin-left: 120px;
+    margin-right: -120px;
+    margin-top: 40px;
+  }
+
+  .resource {
+    min-height: 200px;
+  }
+
+}
+@media screen and (max-width: 1240px) {
+   .pact-title-2 {
+     opacity: 1;
+   }
+}
+
+@media screen and (max-width: 1173px) {
+
+  .logo-title {
+    font-size: 24px !important;
+    margin-top: 22px;
+  }
+
+  .pact-title-2 {
+    font-size: 27px;
+  }
+
+  .phone-white {
+    margin-left: 0px;
+  }
+
+  .phone {
+    margin-top: 60px;
+  }
+
+  .world-div {
+    margin-left: 0;
+    margin-bottom: 0px;
+    text-align: center;
+    width: 100%;
+    background-position: center;
+    background-size: 305px 300px;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+
+  .about-pact {
+    margin-bottom: 10px;
+    padding: 30px;
+  }
+
+  .social-media, .web-info, .footer-links {
+    margin-bottom: 20px;
+  }
+
+  .resource {
+    min-height: 220px;
+  }
+
+  .page-title2 {
+    font-size: 90px;
+  }
+
+  .hopes {
+    font-size: 16px;
+  }
+
+  .description {
+    font-size: 14px;
+  }
+
+  .world-div {
+    margin-left: -80px;
+    margin-right: 80px;
+    background-size: 320px 320px;
+    height: 320px;
+    width: 320px;
+    margin-top: 50px;
+  }
+
+  .about-pact {
+    font-size: 20px;
+  }
+
+  #study {
+    font-size: 20px;
+    margin-left: -100px;
+  }
+
+  .dna-white {
+      background-size: 200px 200px;
+      background-position: center;
+      height: 300px;
+      width: 300px;
+      border-radius: 150px;
+      margin-left: -5px;
+  }
+
+  .radial-bg {
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+    margin-left: 120px;
+    margin-right: -120px;
+    margin-top: 40px;
+  }
+
+  .about {
+    font-size: 15px;
+    padding: 1px;
+    margin: 2px;
+    margin-left: 15px;
+  }
+
+  .about ul {
+    margin-left: -15px;
+    margin-right: 5px;
+  }
+
+  .one {
+    margin-left: -5px;
+  }
+
+  .pp-progress-logo {
+    background-size: 250px 145px;
+    width: 250px;
+    height: 145px;
+  }
+
+}
+
+@media screen and (max-width: 1006px) {
+
+  .logo-title {
+    font-size: 23px !important;
+    margin-top: 24px !important;
+  }
+
+}
+
+@media screen and (max-width: 991px) {
+
+    .menu-text, .logo-title {
+      display: none;
+    }
+
+    .resource {
+      min-height: 155px;
+    }
+
+    h5 {
+     border-bottom: 0;
+   }
+
+   h3, h4, h2, h1 {
+     font-size: 20px;
+   }
+
+   .partner {
+     min-height: 300px;
+   }
+
+   .pact-title-2 {
+     /*margin-top: 300px;*/
+     line-height: 45px;
+   }
+
+   .phone-white {
+     background-size: 200px 200px;
+     background-repeat:no-repeat;
+     height: 300px;
+     width: 300px;
+     border-radius: 150px;
+     margin-left: auto;
+     margin-right: auto;
+     display: inline-block;
+     margin-top: -40px;
+     /*background-color: #44B2AA;*/
+   }
+
+   .page-title2 {
+     font-size: 80px;
+   }
+
+   .hopes {
+     font-size: 18px;
+   }
+
+   #study {
+     font-size: 20px;
+     margin-left: 0;
+   }
+
+   .about-pact2 {
+     margin-top: 40px;
+     font-size: 20px;
+   }
+
+   .about-pact-section {
+      text-align: center;
+   }
+
+   .about-pact {
+     font-size: 17px;
+     margin-left: 15px;
+   }
+
+   .world-div {
+     height: 227px;
+     width: 227px;
+     background-size: 227px 227px;
+     margin-left: -20px;
+     margin-right: 20px;
+   }
+
+   .dna-white {
+       background-size: 150px 150px;
+       background-position: center;
+       height: 250px;
+       width: 250px;
+       border-radius: 150px;
+       margin-left: -5px;
+   }
+
+   .dna-section {
+     text-align: center;
+     width: 100%;
+     margin-left: 0;
+   }
+
+   .radial-bg {
+     height: 250px;
+     width: 250px;
+     border-radius: 150px;
+     margin-top: 40px;
+     display: block;
+     float: none;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 20px;
+   }
+
+   .study {
+     text-align: center;
+   }
+
+   .about {
+     margin-left: -2px;
+     margin-right: 2px;
+   }
+
+   .phone {margin-top: 0;}
+}
+
+/*change gradient size this needs to be 763*/
+/*add icon stuff to this section*/
+@media screen and (max-width: 767px) {
+    #top-section {
+      min-height: 400px;
+      /*background: url("../images/mobile-gradient-01.png");*/
+    }
+
+    .top-section2 {
+      min-height: 350px;
+    }
+
+    .header-image, .header-image2, .header-image3, .header-image4, .header-image5 {
+      min-height: 220px;
+    }
+
+    .world-div {
+      background-size: 205px 200px;
+      background-position: center;
+      height: 205px;
+      width: 100%;
+      margin: 0;
+      margin-top: 10px;
+    }
+
+    .about-pact {
+      text-align: left;
+      font-size: 16px;
+      padding: 7px;
+      margin-left: 2px;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+
+    .section-3 {
+      margin-top: 1em;
+      margin-bottom: 1em;
+    }
+
+    .page-title {
+      font-size: 95px;
+      margin-top: 80px;
+    }
+
+    .pact-title-2 {
+      font-size: 20px;
+      line-height: 40px;
+      margin-top: 320px;
+    }
+
+    .pact-goals {
+      font-size: 15px;
+    }
+
+    .mother-baby2, .mother-baby, .mother-baby1 {
+      margin-bottom: 50px;
+      background: #000;
+    }
+
+    .logo-big-text {
+      margin-top: -45px;
+      margin-left: 3px;
+    }
+
+    .icon-group {
+      margin-bottom: 20px;
+    }
+
+    .description {
+      font-size: 20px;
+    }
+
+    .col-xs-11 {
+    width: 100%;
+    }
+
+    .help-button {
+      font-size: 1em;
+      margin: 0;
+    }
+
+    .menu-text, .logo-title {
+      display: none;
+    }
+
+    .icon2 {
+      text-align: center;
+    }
+
+    .description2 {
+      display: inline-block;
+      margin-top: 15px;
+    }
+
+    .mid {
+      border: 0;
+      padding: 0;
+    }
+
+    #purple-survey {
+      margin-left: 0;
+    }
+
+    #purple-phone, #purple-heart, #purple-survey {
+      margin-top: 15px;
+      width: 40px;
+      height: 40px;
+      background-size: 40px 40px;
+    }
+
+    .purple-bubble {
+      height: 75px;
+      width: 75px;
+    }
+
+    .page-title2 {
+      font-size: 70px;
+      margin-top: 200px;
+    }
+
+    .resource {
+      min-height: 70px;
+    }
+
+    h5 {
+     border-bottom: none;
+   }
+
+   .partner {
+     min-height: 200px;
+   }
+
+   .pp-progress-logo {
+     background-size: 250px 145px;
+     width: 250px;
+     height: 145px;
+   }
+
+   .section-2 {
+     margin-bottom: 10px;
+   }
+   .phone {
+     text-align: center;
+   }
+
+   .dna-white {
+       background-size: 50px 50px;
+       background-position: center;
+       height: 100px;
+       width: 100px;
+       border-radius: 100px;
+       margin-left: -5px;
+   }
+
+   .dna-section {
+     text-align: center;
+     width: 100%;
+     margin-left: 0;
+   }
+
+   .radial-bg {
+     height: 100px;
+     width: 100px;
+     border-radius: 100px;
+     margin-top: 40px;
+     display: block;
+     float: none;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 20px;
+     margin-bottom: 20px;
+   }
+
+   .help-button {
+     margin: 10px;
+   }
+}
+
+@media screen and (max-width: 569px) {
+
+    #top-section {
+      min-height: 320px;
+    }
+
+    .header-image, .header-image2, .header-image3, .header-image4, .header-image5 {
+      min-height: 170px;
+    }
+
+    .pact-title-2 {
+      font-size: 16px;
+    }
+
+    .page-title {
+        margin-top: 150px;
+    }
+
+    .page-title2 {
+      font-size: 50px;
+      margin-top: 110px;
+    }
+
+    .about {
+      font-size: 14px;
+    }
+
+    .tagline {
+      margin-top: 20px;
+      font-size: 15px;
+    }
+
+    h1 {
+      font-size: 20px;
+    }
+
+    .about-h1 {
+      font-size: 35px;
+    }
+
+    .help-button {
+      font-size: 1em;
+      margin: 0;
+    }
+
+    .menu-text, .logo-title {
+      display: none;
+    }
+
+    .icon-group {
+      margin-bottom: 10px;
+    }
+
+    .icon, .purple-bubble {
+      height: 75px;
+      width: 75px;
+    }
+
+    .icon2 {
+      text-align: center;
+      margin-top: 10px;
+    }
+
+    .col-xs-12 {
+      padding: 0;
+    }
+
+    #icon1, #icon2, #icon3, #icon4, #purple-phone, #purple-heart, #purple-survey {
+      margin-top: 15px;
+      width: 40px;
+      height: 40px;
+      background-size: 40px 40px;
+    }
+
+    #purple-survey {
+      margin-left: 7px;
+    }
+
+    /*.purple-bubble {
+      width: 70px;
+      height: 70px;
+      border-radius: 40px;
+      background: orange;
+      margin:5px;
+    }*/
+
+    .description {
+      font-size: 14px;
+    }
+
+    .description2 {
+      text-align: left;
+      font-size: 14px;
+      margin-top: 10px;
+    }
+
+    .centered {
+      margin-top: 0px;
+    }
+
+    .phone-white {
+      display: none;
+    }
+
+    #study, .about-pact2 {
+      font-size: 14px;
+    }
+
+    .about-pact2 {
+      margin-top: 20px;
+    }
+
+    .help-button {
+      margin: 10px;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+
+  .page-title {
+      margin-top: 130px;
+  }
+
+  .logo-big-text {
+    margin-top: -30px;
+    font-size: 90px;
+  }
+
+  .page-title2 {
+    font-size: 35px;
+  }
+
+  #study, .about-pact2 {
+    font-size: 14px;
+  }
+
+  .help-button {
+    margin-top: 10px;
+    margin-left: 0px;
+  }
+
+  .hopes {
+    font-size: 14px;
+  }
+
+  .app, .study-parts {
+    font-size: 14px;
+    text-align: justify;
+  }
+
+  h1 {
+    font-size: 18px;
+  }
+
+  .list {
+    font-size: 16px;
+  }
+
+  h5 {
+    border-bottom: 1px solid #282884;
+  }
+
+  .text-left {
+    text-align: justify;
+    font-size: 14px;
+  }
+
+  .sponsor {
+   min-height: 200px;
+  }
+
+  .purple-bubble {
+    margin-left: -5px;
+  }
+
+  .logo-image {
+    display: none;
+  }
+
+  .logo-big {
+    margin-top: -20px;
+  }
+
+  .menu {
+    background: none !important;
+    border-bottom: 0 !important;
+  }
+
+}
+
+@media screen and (max-width: 475px) {
+  .pact-goals {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 404px) {
+
+  .logo-big-text {
+    margin-top: -5px;
+    font-size: 70px;
+  }
+
+  .privacy-policy {
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    text-align: left;
+  }
+
+  #who-we-are {
+    font-size: 14px;
+    padding: 0;
+  }
+
+  #who-we-are h5 {
+    font-size: 18px;
+  }
+
+}
+
+@media screen and (max-width: 382px) {
+  .found-hope {
+    background-size: 224px 146px;
+    width: 224px;
+    height: 146px;
+    margin-left: -10px;
+  }
+
+  .sponsors .found-hope {
+    margin-left: 0;
+  }
+
+  .pp-progress-logo {
+    background-size: 224px 129px;
+    width: 224px;
+    height: 129px;
+    margin-left: -20px;
+  }
+
+  .sponsors .pp-progress-logo {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 310px) {
+
+  .logo-big-text {
+    margin-top: 10px;
+    font-size: 50px;
+  }
+
+}
+
+@media screen and (min-width: 1653px) {
+    /*#top-section {
+      background: url("images/front-gradient-large-01.png");
+    }*/
+
+    .about-pact {
+      margin-top: 30px;
+    }
+}
+
+@media screen and (min-width: 2071px) {
+    /*#top-section {
+      background: url("images/gradient-large-2-01.png");
+    }*/
+
+    .menu {
+      font-size: 25px;
+    }
+
+    .description {
+      font-size: 22px;
+    }
+
+    .about-pact {
+      margin-top: 45px;
+    }
+
+    #study {
+      font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 2647px) {
+    /*#top-section {
+      background: url("images/web-gradient-sm-01.png");
+    }*/
+
+    .about-pact {
+      margin-top: 65px;
+    }
+
+    #study {
+      font-size: 45px;
+    }
+}
