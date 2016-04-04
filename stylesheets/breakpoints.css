@@ -1,11 +1,22 @@
 /*TODO
 
+<<<<<<< HEAD
 still to do: kill discrepancies, organize better.
 
 */
 
 
 /*only for the about page / dna*/
+=======
+-hacky version of code
+still to do: kill discrepancies, organize better.
+
+
+*/
+
+
+/*literally only for the about page / dna*/
+>>>>>>> 0f68cacb2f04caf1860e5d1048dfcd0f7a4e74b6
 @media screen and (max-width: 2071px) {
   #study {
     font-size: 27px;
@@ -56,10 +67,13 @@ still to do: kill discrepancies, organize better.
    .pact-title-2 {
      opacity: 1;
    }
+<<<<<<< HEAD
 
    .help-button {
      min-height: 140px;
    }
+=======
+>>>>>>> 0f68cacb2f04caf1860e5d1048dfcd0f7a4e74b6
 }
 
 @media screen and (max-width: 1173px) {
@@ -177,8 +191,18 @@ still to do: kill discrepancies, organize better.
     height: 145px;
   }
 
+<<<<<<< HEAD
   .help-button {
     min-height: 140px;
+=======
+}
+
+@media screen and (max-width: 1006px) {
+
+  .logo-title {
+    font-size: 23px !important;
+    margin-top: 24px !important;
+>>>>>>> 0f68cacb2f04caf1860e5d1048dfcd0f7a4e74b6
   }
 
 }
@@ -298,6 +322,7 @@ still to do: kill discrepancies, organize better.
 }
 
 /*change gradient size this needs to be 763*/
+<<<<<<< HEAD
 /*add icon stuff to this section WAS 767*/
 @media screen and (max-width: 771px) {
   .world-div {
@@ -321,6 +346,9 @@ still to do: kill discrepancies, organize better.
 
 }
 
+=======
+/*add icon stuff to this section*/
+>>>>>>> 0f68cacb2f04caf1860e5d1048dfcd0f7a4e74b6
 @media screen and (max-width: 767px) {
     #top-section {
       min-height: 400px;
@@ -688,6 +716,7 @@ still to do: kill discrepancies, organize better.
 
 }
 
+<<<<<<< HEAD
 @media screen and (max-width: 501px) {
   .somh-logo {
     background-size: 220px 53px;
@@ -699,10 +728,13 @@ still to do: kill discrepancies, organize better.
 
 }
 
+=======
+>>>>>>> 0f68cacb2f04caf1860e5d1048dfcd0f7a4e74b6
 @media screen and (max-width: 475px) {
   .pact-goals {
     display: none;
   }
+<<<<<<< HEAD
 
   .donate-button {
     margin-left: 0;
@@ -710,6 +742,8 @@ still to do: kill discrepancies, organize better.
     width: 300px;
   }
 
+=======
+>>>>>>> 0f68cacb2f04caf1860e5d1048dfcd0f7a4e74b6
 }
 
 @media screen and (max-width: 404px) {

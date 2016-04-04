@@ -30,7 +30,11 @@ a {
 }
 
 h1 {
+<<<<<<< HEAD
   background: #434394;
+=======
+  background: #282884;
+>>>>>>> 0f68cacb2f04caf1860e5d1048dfcd0f7a4e74b6
   border-radius: .2em;
   line-height: 40px;
   color: #eee;
@@ -42,12 +46,20 @@ h1 {
 
 .h1-about {
   background: #AAAAD6;
+<<<<<<< HEAD
   border-bottom: solid 3px #434394;
+=======
+  border-bottom: solid 3px #282884;
+>>>>>>> 0f68cacb2f04caf1860e5d1048dfcd0f7a4e74b6
   color: #282884;
 }
 
 h2 {
+<<<<<<< HEAD
   background: #73C6C0;
+=======
+  background: #44B2AA;
+>>>>>>> 0f68cacb2f04caf1860e5d1048dfcd0f7a4e74b6
   font-size: 16px;
   line-height: 20px;
   color: #fff;
@@ -58,7 +70,11 @@ h2 {
 }
 
 h3 {
+<<<<<<< HEAD
   background: #73C6C0;
+=======
+  background: #44B2AA;
+>>>>>>> 0f68cacb2f04caf1860e5d1048dfcd0f7a4e74b6
   font-size: 35px;
   line-height: 40px;
   color: #fff;
@@ -82,7 +98,11 @@ h5 {
   line-height: 25px;
   color: #282884;
   text-align: center;
+<<<<<<< HEAD
   border-bottom: 1px solid #434394;
+=======
+  border-bottom: 1px solid #282884;
+>>>>>>> 0f68cacb2f04caf1860e5d1048dfcd0f7a4e74b6
   margin: 0;
   padding: 0;
   margin-top: 30px;
@@ -93,7 +113,10 @@ h5 {
   background: url("../images/purple-blur-x.png");
   background-size: 100% auto;
   min-height: 350px;
+<<<<<<< HEAD
   opacity: .9;
+=======
+>>>>>>> 0f68cacb2f04caf1860e5d1048dfcd0f7a4e74b6
 }
 
 .header-image2 {
@@ -112,7 +135,10 @@ h5 {
   background: url("../images/purpley-blue-true2.png");
   background-size: 100% auto;
   min-height: 350px;
+<<<<<<< HEAD
   opacity: .85;
+=======
+>>>>>>> 0f68cacb2f04caf1860e5d1048dfcd0f7a4e74b6
 }
 
 .header-image5 {
@@ -331,11 +357,19 @@ b {
 }
 
 .resource {
+<<<<<<< HEAD
+=======
+  border: 1px solid #d8d8d8;
+>>>>>>> 0f68cacb2f04caf1860e5d1048dfcd0f7a4e74b6
   border-radius: 10px;
   margin: 5px;
   padding: 5px;
   text-align: center;
+<<<<<<< HEAD
   min-height: 135px;
+=======
+  min-height: 120px;
+>>>>>>> 0f68cacb2f04caf1860e5d1048dfcd0f7a4e74b6
 }
 
 .long {
@@ -356,6 +390,7 @@ b {
   text-align: center;
 }
 
+<<<<<<< HEAD
 .somh-logo {
   background: url("../images/UNC_SOM.png");
   background-size: 300px 71px;
@@ -391,6 +426,8 @@ b {
   border-bottom: 0;
 }
 
+=======
+>>>>>>> 0f68cacb2f04caf1860e5d1048dfcd0f7a4e74b6
 .resource-button {
   background: #C0AEE0;
   border: 2px solid #282884;
@@ -406,15 +443,23 @@ b {
 }
 
 .footer {
+<<<<<<< HEAD
   background: #434394;
   min-height: 70px;
   height: auto;
+=======
+  background: #282884;
+  min-height: 70px;
+>>>>>>> 0f68cacb2f04caf1860e5d1048dfcd0f7a4e74b6
   padding: 30px;
   text-align: center;
   color: #fff;
   border-top: 2px solid #AAAAD6;
+<<<<<<< HEAD
   bottom: 0px;
   position: relative;
+=======
+>>>>>>> 0f68cacb2f04caf1860e5d1048dfcd0f7a4e74b6
 }
 
 .social-icon {
@@ -476,7 +521,11 @@ b {
 }
 
 .app {
+<<<<<<< HEAD
   background: #73C6C0;
+=======
+  background: #44B2AA;
+>>>>>>> 0f68cacb2f04caf1860e5d1048dfcd0f7a4e74b6
   padding: 30px;
   text-align: center;
   min-height: 400px;
@@ -532,7 +581,11 @@ b {
 }
 
 .icon {
+<<<<<<< HEAD
   background: #434394;
+=======
+  background: #282884;
+>>>>>>> 0f68cacb2f04caf1860e5d1048dfcd0f7a4e74b6
   border: 2px solid #C0AEE0;
   height: 100px;
   width: 100px;
@@ -572,7 +625,11 @@ b {
 }
 
 .button {
+<<<<<<< HEAD
   background: #434394;
+=======
+  background: #282884;
+>>>>>>> 0f68cacb2f04caf1860e5d1048dfcd0f7a4e74b6
   border-radius: .4em;
   color: #eee;
   width: 100%;
@@ -599,6 +656,7 @@ b {
 
 #button2 {
   background: #44B2AA;
+<<<<<<< HEAD
   -webkit-transition: .3s ease-in-out;
   -moz-transition: .3s ease-in-out;
   -o-transition: .3s ease-in-out;
@@ -638,6 +696,20 @@ b {
 
 .donate-button:hover {
   background: #AAAAD6;
+=======
+}
+
+.button:hover {
+  background: #AAAAD6;
+  -moz-box-shadow: 0 0 50px #eee;
+  -webkit-box-shadow: 0 0 50px #eee;
+  box-shadow: 0px 0px 50px #eee;
+}
+
+.donate {
+  min-height: 400px;
+  padding: 15px;
+>>>>>>> 0f68cacb2f04caf1860e5d1048dfcd0f7a4e74b6
 }
 
 .found-hope {
@@ -716,7 +788,11 @@ b {
 
 .study-parts {
   margin-top: 20px;
+<<<<<<< HEAD
   margin-bottom: 20px;
+=======
+  margin-bottom: 55px;
+>>>>>>> 0f68cacb2f04caf1860e5d1048dfcd0f7a4e74b6
 }
 
 .text-left {
@@ -748,7 +824,11 @@ b {
   border-radius: 15px;
 }
 
+<<<<<<< HEAD
 .who-we-are {
+=======
+#who-we-are {
+>>>>>>> 0f68cacb2f04caf1860e5d1048dfcd0f7a4e74b6
   padding: 10px;
   text-align: left;
   font-size: 20px;
@@ -759,12 +839,20 @@ b {
 }
 
 @media screen and (max-width: 2200px) {
+<<<<<<< HEAD
       .who-we-are {
+=======
+      #who-we-are {
+>>>>>>> 0f68cacb2f04caf1860e5d1048dfcd0f7a4e74b6
         padding: 0px;
       }
 
 
+<<<<<<< HEAD
             .who-we-are h5 {
+=======
+            #who-we-are h5 {
+>>>>>>> 0f68cacb2f04caf1860e5d1048dfcd0f7a4e74b6
               font-size: 25px;
               line-height: 28px;
               margin-top: 0px;
@@ -772,12 +860,20 @@ b {
 }
 
 @media screen and (max-width: 1700px) {
+<<<<<<< HEAD
       .who-we-are {
+=======
+      #who-we-are {
+>>>>>>> 0f68cacb2f04caf1860e5d1048dfcd0f7a4e74b6
         padding: 20px;
         padding-top: 5px;
       }
 
+<<<<<<< HEAD
       .who-we-are h5 {
+=======
+      #who-we-are h5 {
+>>>>>>> 0f68cacb2f04caf1860e5d1048dfcd0f7a4e74b6
         font-size: 25px;
         line-height: 28px;
         margin-top: 0px;
@@ -960,6 +1056,7 @@ b {
   margin-top: 65px;
 }
 
+<<<<<<< HEAD
 .donate-team {
   margin-left: auto;
   margin-right: auto;
@@ -969,6 +1066,8 @@ b {
   margin-top: 0px;
 }
 
+=======
+>>>>>>> 0f68cacb2f04caf1860e5d1048dfcd0f7a4e74b6
 @media screen and (max-width: 639px) {
   #image1 {
     background-size: 300px 207px;
@@ -992,6 +1091,7 @@ b {
 }
 
 
+<<<<<<< HEAD
 #evelyn {
 	background: url("../images/AusPeople/Evelyn_Bussell.jpg");
   background-size: 200px 225px;
@@ -1002,6 +1102,12 @@ b {
   background: url("../images/AusPeople/Anne_Buist.jpg");
   background-size: 180px 203px;
   width: 180px;
+=======
+#anne {
+  background: url("../images/AusPeople/Anne_Buist.jpg");
+  background-size: 200px 225px;
+  width: 200px;
+>>>>>>> 0f68cacb2f04caf1860e5d1048dfcd0f7a4e74b6
 }
 
 #enda {
