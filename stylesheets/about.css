@@ -8,11 +8,7 @@ h1  {
 }
 
 h3 {
-<<<<<<< HEAD
   background: #434394;
-=======
-  background: #282884;
->>>>>>> 0f68cacb2f04caf1860e5d1048dfcd0f7a4e74b6
   padding: .1em;
   color: #eee;
   border-radius: .2em;
@@ -30,7 +26,6 @@ h3 {
   padding-bottom: 4em;
 }
 
-<<<<<<< HEAD
 .articles, .about-icons {
   text-align: center;
   background: #73C6C0;
@@ -60,36 +55,6 @@ h3 {
 
 .about-pact2 {
   margin-top: 40px;
-=======
-.section3-title {
-    font-size: 2.5em;
-    margin-top: .4em;
-    color: #282884;
-}
-
-.world-div {
-  margin-top: 30px;
-  margin-right: 100px;
-  height: 327px;
-  width: 327px;
-  margin-left: -100px;
-  text-align: center;
-  display: inline-block;
-  background: url("../images/pact-color-logo-big-02.png");
-  background-size: 327px 327px;
-  background-repeat: no-repeat;
-}
-
-.about-pact {
-  margin-top: 20px;
-  font-size: 25px;
-  color: #282884;
-  text-align: justify;
-}
-
-.about-pact2 {
-  margin-top: 90px;
->>>>>>> 0f68cacb2f04caf1860e5d1048dfcd0f7a4e74b6
   font-size: 25px;
   color: #282884;
   text-align: justify;
@@ -113,15 +78,11 @@ h3 {
 
 .how-help {
   margin-top: .5em;
-<<<<<<< HEAD
   margin-bottom: .5em;
-=======
->>>>>>> 0f68cacb2f04caf1860e5d1048dfcd0f7a4e74b6
   font-size: 1.2em;
   text-align: center;
 }
 
-<<<<<<< HEAD
 .about-help {
   font-size: 1.2em;
   margin-top: 2px;
@@ -136,15 +97,6 @@ h3 {
   padding: 20px;
   margin-top: 14px;
   margin-bottom: 14px;
-=======
-.help-button {
-  background: #282884;
-  border-radius: 10px;
-  color: #eee;
-  width: 100%;
-  padding: 20px;
-  margin: 14px;
->>>>>>> 0f68cacb2f04caf1860e5d1048dfcd0f7a4e74b6
   font-size: 17px;;
   display: inline-block;
   border-right: 0;
@@ -178,21 +130,6 @@ h3 {
   border: solid 1px #000;
 }
 
-<<<<<<< HEAD
-=======
-.study {
-  text-align: center;
-  background: #282884;
-  color: #eee;
-  font-size: 18px;
-}
-
-.hopes {
-  font-size: 24px;
-  color: #eee;
-}
-
->>>>>>> 0f68cacb2f04caf1860e5d1048dfcd0f7a4e74b6
 .app {
   min-height: 400px;
   text-align: center;
@@ -206,68 +143,6 @@ h3 {
 
 }
 
-<<<<<<< HEAD
-=======
-.articles, .about-icons {
-  text-align: center;
-  background: #44B2AA;
-  padding: 35px;
-}
-
-.dna-white {
-  background: url("../images/dna-white-01.png");
-  background-size: 300px 300px;
-  background-repeat:no-repeat;
-  background-position: center;
-  height: 400px;
-  width: 400px;
-  border-radius: 250px;
-  -webkit-transition: .3s ease-in-out;
-  -moz-transition: .3s ease-in-out;
-  -o-transition: .3s ease-in-out;
-  transition: .5s ease-in-out;
-  /*background-color: #44B2AA;*/
-  margin-left: 20px;
-}
-
-.dna-white:hover {
-    transform: rotateY(180deg);
-}
-
-.radial-bg {
-  background-color: -webkit-radial-gradient(rgba(255,255,255,.4) 4%, rgba(68,178,170,.3) 96%);
-  background: -o-radial-gradient(rgba(255,255,255,.4) 4%, rgba(68,178,170,.3) 96%);
-  background: -moz-radial-gradient(rgba(255,255,255,.4) 4%, rgba(68,178,170,.3) 96%);
-  background: radial-gradient(rgba(255,255,255,.4) 4%, rgba(68,178,170,.3) 96%);
-  height: 400px;
-  width: 400px;
-  border-radius: 250px;
-  margin-left: 70px;
-  margin-right: -70px;
-  margin-top: 10px;
-  float: right;
-  border: 3px solid #fff;
-  -webkit-transition: 1s ease-in-out;
-  -moz-transition: 1s ease-in-out;
-  -o-transition: 1s ease-in-out;
-  transition: 1s ease-in-out;
-}
-
-.radial-bg:hover {
-  -moz-box-shadow: 0 0 50px #eee;
-  -webkit-box-shadow: 0 0 50px #eee;
-  box-shadow: 0px 0px 50px #eee;
-  -ms-transform: rotate(60deg);
-  -webkit-transform: rotate(60deg);
-  transform: rotate(360deg);
-}
-
-#study {
-  margin-left: -50px;
-  margin-right: 20px;
-}
-
->>>>>>> 0f68cacb2f04caf1860e5d1048dfcd0f7a4e74b6
 .study-container {
   padding-top: 45px;
 }

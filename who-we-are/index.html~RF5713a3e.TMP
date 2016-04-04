@@ -3,35 +3,42 @@
   <head>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>PPD ACT - Partners</title>
+  <title>Who We Are - PPD ACT</title>
 
-  <link rel="apple-touch-icon" sizes="57x57" href="../favicons/apple-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="../favicons/apple-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="../favicons/apple-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="../favicons/apple-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="../favicons/apple-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="../favicons/apple-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="../favicons/apple-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="../favicons/apple-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="../favicons/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192"  href="../favicons/android-icon-192x192.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="../favicons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="../favicons/favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="../favicons/favicon-16x16.png">
-  <link rel="manifest" href="/manifest.json">
-  <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-  <meta name="theme-color" content="#ffffff">
+  <!--favicons-->
+  <link rel="apple-touch-icon" sizes="57x57" href="../favicons/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="../favicons/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="../favicons/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="../favicons/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="../favicons/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="../favicons/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="../favicons/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="../favicons/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="../favicons/apple-touch-icon-180x180.png">
+  <link rel="icon" type="image/png" href="../favicons/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="../favicons/android-chrome-192x192.png" sizes="192x192">
+  <link rel="icon" type="image/png" href="../favicons/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="../favicons/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="../favicons/manifest.json">
+  <link rel="mask-icon" href="../favicons/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="../favicons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#603cba">
+  <meta name="msapplication-TileImage" content="../favicons/mstile-144x144.png">
+  <meta name="msapplication-config" content="../favicons/browserconfig.xml">
+  <meta name="theme-color" content="#44b2aa">
 
+  <!--style-->
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../stylesheets/breakpoints.css" rel="stylesheet">
+  <link href="../stylesheets/secondary-styles.css" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!--scripts-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js" type="text/javascript"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-  <link href="../stylesheets/secondary-styles.css" rel="stylesheet">
-  <link href="../stylesheets/involved.css" rel="stylesheet">
-  <link href="../stylesheets/breakpoints.css" rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" type="text/javascript"></script>
-  <script src="../secondary-scroll.js" type="text/javascript"></script>
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+  <script src="../scripts/secondary-scroll.js" type="text/javascript"></script>
+
+  <!--font-->
   <link href='https://fonts.googleapis.com/css?family=Asap:400,400italic,700' rel='stylesheet' type='text/css'>
   </head>
 
@@ -42,9 +49,11 @@
       <div class="hidden-md hidden-sm"></div>
       <div class="col-md-12 col-sm-12">
           <div class="col-md-3 col-sm-5 logo"><a href="/"><div class="logo-image"></div><div class="logo-title">PPD ACT</div></a></div>
-          <div class="col-md-9 hidden-sm hidden-xs right menu-text"><a href="/">home</a> - <a href="/about">about</a> - <a href="/get-involved">get involved</a> -
-            <a href="/resources">resources</a> - <a class="active" href="/partners">partners</a> - <a href="/contact">contact</a>
+          <div class="col-md-9 hidden-sm hidden-xs right menu-text"><a href="/">home</a> - <a href="/about">about the study</a> - <a class="active" href="/who-we-are">who we are</a> -
+            <a href="/resources">resources</a> - <a href="/donate">donate</a>
           </div>
+
+          <!--mobile menu-->
           <div class="hidden-lg hidden-md col-sm-7">
             <div class="dropdown right">
               <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -54,49 +63,150 @@
               <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="dLabel">
                 <li><a href="/">Home</a></li>
                 <li><a href="/about">About</a></li>
-                <li><a href="/get-involved">Get Involved</a></li>
+                <li><a class="m-active" href="/who-we-are">Who We Are</a></li>
                 <li><a href="/resources">Resources</a></li>
-                <li><a class="m-active" href="/partners">Partners</a></li>
-                <li><a href="/contact">Contact</a></li>
+                <li><a href="/donate">Donate</a></li>
               </ul>
             </div>
           </div>
         <div class="hidden-md hidden-sm"></div>
       </div>
     </div>
-    <!--*******************************header and title**************************-->
-      <div class="col-md-12 header-image5">
+
+    <!--*******************************header img and title**************************-->
+      <div class="col-md-12 header-image top-section2">
         <div class="row">
           <div class="col-md-2 col-sm-1 hidden-xs"></div>
-          <div class="page-title2 col-md-8 col-sm-10 col-xs-12">PARTNERS</div>
+          <div class="page-title2 col-md-8 col-sm-10 col-xs-12">WHO WE ARE</div>
           <div class="col-md-2 col-sm-1 hidden-xs"></div>
         </div>
       </div>
 
+    <!--who we are and about ppd act-->
+    <div class="row who-we-are">
+        <div class="col-xs-1"></div>
+        <div class="col-xs-10"><h3>About PPD ACT</h3>
+          <div class="col-md-6 hidden-sm hidden-xs">
+            <div class="worldwide-map"></div>
+            <div class="credit">Map by <a href="freevectormaps.com">FreeVectorMaps.com</a></div>
+          </div>
+          <div class="col-md-6 col-sm-12" id="who-we-are">
+              PPD ACT is a research project developed by the PACT Consortium.
+              We are working together to engage women who currently have
+             or had postpartum depression or postpartum psychosis in a genetics research study using our free iOS mobile app, PPD ACT, which
+             is currently available in the US, Australia and the UK.<br>
+             <div class="hidden-xl hidden-lg hidden-md col-sm-12">
+               <div class="worldwide-map"></div>
+               <div class="credit">Map by <a href="freevectormaps.com">FreeVectorMaps.com</a></div>
+             </div><br> Researchers in the Departments of Psychiatry and Genetics at the University
+            of North Carolina at Chapel Hill who are PACT members are leading PPD ACT and overseeing the U.S. arm of the study. Additional PACT members,
+            researchers from the National Centre for Mental Health at Cardiff University and Queensland Brain Institute at the University of Queensland,
+            are launching PPD ACT in the U.K. and Australia.</div>
+        </div>
+        <div class="col-xs-1"></div>
+    </div>
+
+    <!--meet the teams-->
+    <div class="row meet-the-team">
+      <div class="col-xs-1"></div>
+      <div class="col-xs-10"><h3>Meet the Teams</h3></div>
+      <div class="col-xs-1"></div>
+      <div class="col-md-12">
+        <div class="col-md-1 hidden-sm"></div>
+        <div class="col-md-10 col-sm-12">
+                     <h5>PACT US Team</h5>
+                     <img src="http://identity.unc.edu/wp-content/uploads/2014/02/image11.jpg" style="margin-left: auto; margin-right: auto;"/>
+                     <br><div id="image1"></div>
+                     <div class="caption">LEFT TO RIGHT: Patrick Sullivan, Jerry Guintivano, Samantha Meltzer-Brody, Carol Lewis, Holly Krohn at University of North Carolina at Chapel Hill</div>
+
+                     <h5>PACT U.K. Team</h5>
+                     <div class="row"><img src="http://static.cf.ac.uk/cfui/1.6.1/img/logo.png" height="100px" width="100px" style="margin-left: auto; margin-right: auto;" />
+                     <img src="../images/ncmh-2015.png" style="margin-left: auto; margin-right: auto;"></div>
+                     <div class="row">The PACT U.K. team is associated with National Centre for Mental Health and Cardiff University.</div>
+                     <div class="row"><br><div id="image2"></div></div>
+                     <div class="caption"><a href="http://medicine.cf.ac.uk/person/dr-ian-richard-jones/">Dr. Ian Jones</a> (middle back) and at
+                     <a href="http://www.cardiff.ac.uk/">Cardiff University</a></div>
+
+                     <h5>PACT Australia Team</h5>
+                     <div class="col-xs-12">
+                       <div class="row" style="margin-top: 7px; margin-bottom: 7px"><div class="uq-logo"></div></div>
+                       The PACT Australia team is composed of several different institutions, including <a href="http://www.qbi.uq.edu.au/group-leader-wray"><b>Naomi Wray</b></a> and team at Queensland:
+                     </div>
+                  <div class="col-sm-4">
+                    <div class="aus-team" id="anne"></div>
+                     <p class="caption">Anne Buist</p>
+                  </div>
+
+                  <div class="col-sm-4">
+                       <div class="aus-team" id="enda"></div>
+                     <p class="caption">Enda Byne</p>
+                  </div>
+
+                  <div class="col-sm-4">
+                       <div class="aus-team" id="ian"></div>
+                     <p class="caption">Ian Hickie</p>
+                  </div>
+
+                 <div class="col-sm-4">
+                       <div class="aus-team" id="janette"></div>
+                     <p class="caption">Jeannette Milgrom</p>
+                 </div>
+
+                 <div class="col-sm-4">
+                       <div class="aus-team" id="julio"></div>
+                     <p class="caption">Julio Licinio</p>
+                 </div>
+
+                 <div class="col-sm-4">
+                       <div class="aus-team" id="naomi"></div>
+                     <p class="caption">Naomi Wray</p>
+                 </div>
+
+                 <div class="col-xs-12">
+                       <div class="aus-team" id="nick"></div>
+                     <p class="caption">Nick Martin</p>
+                 </div>
+
+             </div>
+             <div class="col-md-1 hidden-sm"></div>
+        </div>
+      </div>
+
+    <!--sponsors-->
     <div class="row partners">
-        <div class="col-md-2"></div>
-        <div class="col-md-8">
+        <div class="col-xs-1"></div>
+        <div class="col-xs-10">
           <h3>Sponsors</h3>
+          <div class="col-md-12 partner">
+            <div class="col-md-5 col-xs-12 left">  <a href="https://www.med.unc.edu/innovation"><div class="somh-logo"></div></a></div>
+            <div class="col-md-7 col-xs-12 text-left"><h5>UNC School of Medicine and Center for Innovation</h5>
+              The UNC School of Medicine Departments of <a href="http://www.med.unc.edu/psych">Psychiatry</a>
+              and <a href="http://www.med.unc.edu/psych">Genetics</a> sponsored the creation of the app.
+              Within the UNC Department of Psychiatry, The team from <a href="https://www.med.unc.edu/psych/wmd">
+              UNC Center for Women's Mood Disorders</a> provided
+              the infrastructure to create the app.  The <a href="https://www.med.unc.edu/innovation">UNC Center for Innovation</a>
+              provided critical project management.
+            </div>
+          </div>
           <div class="col-md-12 partner">
             <div class="col-md-5 col-xs-12 left">  <a href="https://www.nimh.nih.gov/index.shtml"><div class="nimh-logo" alt="NIMH logo"></div></a></div>
             <div class="col-md-7 col-xs-12 text-left"><h5>National Institute of Mental Health</h5>
               The <a href="https://www.nimh.nih.gov/index.shtml">National Institute of Mental Health (NIMH)</a> is the lead federal agency for research on mental disorder focused on transforming
               the understanding and treatment of mental illnesses through basic and clinical research, paving the way for prevention, recovery, and cure.
-              NIMH is partnering with PPD Act to provide the spit kits used for DNA collection.
+              NIMH is partnering with PPD ACT to provide the spit kits used for DNA collection.
             </div>
           </div>
           <div class="col-md-12 partner">
             <div class="col-md-5 col-xs-12 left"><a href="http://www.postpartumprogress.org/"><div class="pp-progress-logo"></div></a></div>
             <div class="col-md-7 col-xs-12 text-left"><h5>Postpartum Progress</h5>
-              PPD ACT has partnered with <a href="http://www.postpartumprogress.com">Postpartum Progress</a> to spread the word about this exciting new initiative!  PostpartumProgress.com
-               is a blog that offers in-depth information, support and hope for all pregnant and new moms who have postpartum depression and all other mental illnesses related to pregnancy and childbirth, including postpartum anxiety, postpartum OCD,
-               depression or anxiety during pregnancy, post-adoption depression, postpartum PTSD,
-               depression after miscarriage or perinatal loss and postpartum psychosis.
+              PPD ACT has partnered with <a href="http://www.postpartumprogress.com">Postpartum Progress</a> to spread the word about this exciting new initiative!
+              Postpartum Progress is a national nonprofit providing peer-to-peer support for women with perinatal mood and anxiety disorders like PPD.
+              Programs include blog with 2.6 million visitors per year, a private forum, an annual conference, social media connection, local events and more.
             </div>
           </div>
           <div class="col-md-12 partner">
             <div class="col-md-5 col-xs-12 left"><a href="http://www.foundationofhopenc.org">
-              <img src="http://www.foundationofhopenc.org/wp-content/uploads/2015/03/FOH-Color-e1430510302612.jpg"></a></div>
+              <div class="found-hope"></div></a></div>
             <div class="col-md-7 col-xs-12 text-left"><h5>Foundation of Hope NC</h5>
               <a href="http://www.foundationofhopenc.org">The Foundation of Hope</a> promotes scientific research aimed at discovering the causes and potential cures for mental illness in order to develop a more effective
               means of treatment.
@@ -107,13 +217,15 @@
           </div>
           <br><br><br>Thank you to our sponsors for all you've contributed!
         </div>
-        <div class="col-md-2"></div>
+        <div class="col-xs-1"></div>
       </div>
 
+    <!--members-->
     <div class="row collaborators">
       <div class="col-md-2 col-sm-1 hidden-xs"></div>
       <div class="col-md-8 col-sm-10 cos-xs-12 resources">
-        <h1>Members</h1>
+        <h3>PACT Members</h3>
+                  <div style="font-size: 12px;">*These are PACT members who have contributed data or scholarship to current PACT project.</div>
         <div class="col-md-12">
           <div class="col-md-4 col-sm-6 col-xs-12">
             <div class="resource">
@@ -128,6 +240,22 @@
               <h2>Justin Bilzta</h2>
               <b>Institution</b>: University of Melbourne, Women's Mental Health, Australia
               <br><a href="http://www.findanexpert.unimelb.edu.au/display/person8665">Learn More <i class="fa fa-external-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="resource">
+              <h2>Jeannette Milgrom</h2>
+              <b>Institution</b>: University of Melbourne, Australia
+              <br><a href="http://psych.unimelb.edu.au/people/jeannette-milgrom">Learn More <i class="fa fa-external-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="resource">
+              <h2>Naomi Wray</h2>
+              <b>Institution</b>: University of Queensland, Australia
+              <br><a href="http://www.qbi.uq.edu.au/group-leader-wray">Learn More <i class="fa fa-external-link"></i></a>
             </div>
           </div>
 
@@ -332,7 +460,7 @@
           </div>
 
           <div class="col-md-4 col-sm-6 col-xs-12">
-            <div class="resource long">
+            <div class="resource">
               <h2>Rebecca Brock</h2>
               <b>Institution</b>: The University of Iowa, Department of Psychology, USA
               <br><a href="http://psychology.unl.edu/rebecca-brock">Learn More <i class="fa fa-external-link"></i></a>
@@ -340,7 +468,7 @@
           </div>
 
           <div class="col-md-4 col-sm-6 col-xs-12">
-            <div class="resource long">
+            <div class="resource">
               <h2>Trine Munk-Olsen</h2>
               <b>Institution</b>: Aarhus University, Department of Economics and Business (NCRR) National Centre for Integrated Register-based Research, Denmark
               <br><a href="http://pure.au.dk/portal/en/tmo@econ.au.dk">Learn More <i class="fa fa-external-link"></i></a>
@@ -348,7 +476,7 @@
           </div>
 
           <div class="col-md-4 col-sm-6 col-xs-12">
-            <div class="resource long">
+            <div class="resource">
               <h2>Veerle Bergink</h2>
               <b>Institution</b>: Erasmus MC, Department of Psychiatry/Psychology, Rotterdam, The Netherlands
               <br><a href="http://www.psych.nl/cv/bergink_veerle.html">Learn More <i class="fa fa-external-link"></i></a>
@@ -379,17 +507,25 @@
             </div>
           </div>
 
-          <div class="col-md-4 col-sm-6 col-xs-12"></div>
-
           <div class="col-md-4 col-sm-6 col-xs-12">
-            <div class="resource long">
+            <div class="resource">
               <h2>Katherine Wisner</h2>
               <b>Institution</b>: Northwestern University Feinberg School of Medicine, Asher Center for the Study and Treatment of Depressive Disorders, USA
               <br><a href="http://www.feinberg.northwestern.edu/sites/asher-center/faculty/profile.html?xid=24663">Learn More <i class="fa fa-external-link"></i></a>
             </div>
           </div>
 
-          <div class="col-md-4 col-sm-6 col-xs-12"></div>
+          <div class="col-md-4 col-sm-3 col-xs-12"></div>
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="resource long">
+              <h2>Robert Ammerman</h2>
+              <b>Institution</b>: University of Cincinatti, USA
+              <br><a href="http://www.cincinnatichildrens.org/bio/a/robert-ammerman/">Learn More <i class="fa fa-external-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-3 col-xs-12"></div>
 
         </div>
 
@@ -400,10 +536,11 @@
     <!--end row section2-->
     </div>
 
+    <!--developers-->
     <div class="row sponsors">
       <div class="col-md-2"></div>
       <div class="col-md-8">
-        <h4>Developers</h4>
+        <h3>Developers</h3>
         <div class="col-md-12 sponsor">
           <div class="col-md-5 col-xs-12 left">
                     <a href="http://littlegreensoftware.com/">
@@ -444,7 +581,7 @@
             <br><br>
           </div>
           <div class="col-md-12 copyright">
-            &copy; 2016 PPD ACT All Rights Reserved | <a href="/privacy-policy">Privacy</a> | <a href="/faq">FAQ</a>
+            &copy; 2016 PPD ACT All Rights Reserved | <a href="/privacy-policy">Privacy</a> | <a href="/faq">FAQ</a> | <a href="/contact">Contact</a>
           </div>
         </div>
       </div>
