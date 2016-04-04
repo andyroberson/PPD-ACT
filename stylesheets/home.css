@@ -1,0 +1,614 @@
+/*TODO
+
+-hacky version of code
+still to do: kill discrepancies, organize better.
+
+*/
+
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Asap', sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.top-header, .section-2, .about-ppd-act, .section-4, .section-5, .section-6 {
+  text-align: center;
+}
+
+.about-ppd-act {
+  margin-top: 1em; min-height: 0; margin-bottom: 3em;
+}
+
+a:link, a:visited, a:active {
+  color: #44B2AA;
+}
+
+h1 {
+  background: #44B2AA;
+  padding: .1em;
+  color: #eee;
+  border-radius: .2em;
+  text-align: center;
+  border-bottom: solid 3px #008080;
+}
+
+/*#282884*/
+
+h2 {
+  background: #434394;
+  margin: 0;
+  border-radius: 10px;
+  margin-left: -15px;
+  margin-right: -15px;
+  color: #eee;
+  text-align: center;
+  border-bottom: solid 3px #C0AEE0;
+}
+
+
+#top-section {
+  margin-top: 0;
+  width: 100%;
+  min-height: 445px;
+  background: #73C6C0; /*url('../images/gradient2-light5-01.png');*/
+  background-size: 100% 100%;
+  text-align: center;
+}
+
+#bottom-section {
+  width: 100%;
+  min-height: 300px;
+  max-height: 700px;
+  background: #fff;
+}
+
+ /* override row so that there's no horiontal scrollbar */
+
+.row {
+ margin: 0;
+}
+
+.top-header {
+  width: 100%;
+}
+
+.menu {
+  color: #fff;
+  padding: 10px;
+  min-height: 60px;
+  max-height: 136px;
+  font-size: 21px;
+  -webkit-transition: .3s ease-in-out;
+  -moz-transition: .3s ease-in-out;
+  -o-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  background: none;
+}
+
+.menu a:link, .menu a:active, .menu a:visited {
+  color: #fff;
+}
+
+.dna-white {
+  background: url("../images/dna-white-01.png");
+  background-size: 300px 300px;
+  background-repeat:no-repeat;
+  background-position: center;
+  height: 400px;
+  width: 400px;
+  border-radius: 250px;
+  -webkit-transition: .3s ease-in-out;
+  -moz-transition: .3s ease-in-out;
+  -o-transition: .3s ease-in-out;
+  transition: .5s ease-in-out;
+  /*background-color: #44B2AA;*/
+  margin-left: 20px;
+}
+
+.articles, .about-icons {
+  text-align: center;
+  background: #73C6C0;
+  padding: 35px;
+}
+
+.dna-white:hover {
+    transform: rotateY(180deg);
+}
+
+.about-pact-section {
+  background: #fff;
+  padding: 1em;
+  color: #282884;
+  text-align: center;
+  padding-bottom: 4em;
+}
+
+.radial-bg {
+  background-color: -webkit-radial-gradient(rgba(255,255,255,.4) 4%, rgba(68,178,170,.3) 96%);
+  background: -o-radial-gradient(rgba(255,255,255,.4) 4%, rgba(68,178,170,.3) 96%);
+  background: -moz-radial-gradient(rgba(255,255,255,.4) 4%, rgba(68,178,170,.3) 96%);
+  background: radial-gradient(rgba(255,255,255,.4) 4%, rgba(68,178,170,.3) 96%);
+  height: 400px;
+  width: 400px;
+  border-radius: 250px;
+  margin-left: 70px;
+  margin-right: -70px;
+  margin-top: 10px;
+  float: right;
+  border: 3px solid #fff;
+  -webkit-transition: 1s ease-in-out;
+  -moz-transition: 1s ease-in-out;
+  -o-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+}
+
+.radial-bg:hover {
+  -moz-box-shadow: 0 0 50px #eee;
+  -webkit-box-shadow: 0 0 50px #eee;
+  box-shadow: 0px 0px 50px #eee;
+  -ms-transform: rotate(60deg);
+  -webkit-transform: rotate(60deg);
+  transform: rotate(360deg);
+}
+
+#dLabel {
+  background: none;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 20px;
+  padding: 5px;
+  margin-top: 15px;
+  -webkit-transition: .3s ease-in-out;
+  -moz-transition: .3s ease-in-out;
+  -o-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.dropdown-menu {
+  background: #eee;
+  border: 1px solid #333;
+  min-width: 115px !important;
+  -webkit-transition: .3s ease-in-out;
+  -moz-transition: .3s ease-in-out;
+  -o-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.dropdown-toggle {
+  width: 115px;
+  -webkit-transition: .3s ease-in-out;
+  -moz-transition: .3s ease-in-out;
+  -o-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+ul.dropdown-menu {
+  width: 115px;
+  -webkit-transition: .3s ease-in-out;
+  -moz-transition: .3s ease-in-out;
+  -o-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.dropdown-menu>li {
+  width: 115px;
+}
+
+.dropdown-menu>li>a {
+  color: #282884 !important;
+}
+
+.dropdown-menu>li>a:hover {
+  background: #44B2AA;
+  color: #eee !important;
+}
+
+.m-active {
+  background: #44B2AA;
+  font-weight: 600;
+}
+
+.logo-image {
+  height: 100px;
+  width: 100px;
+  margin-top: -4px;
+  margin-right: 12px;
+  /*background: url("../images/logo-full-color-02.png");*/
+  background: url("../images/logo-whitebg.png");
+  background-size: 100px 100px;
+  float: left;
+  text-align: left;
+  -webkit-transition: .3s ease-in-out;
+  -moz-transition: .3s ease-in-out;
+  -o-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.logo-image:hover {
+  opacity: .7;
+  cursor: pointer;
+}
+
+.logo-title {
+  font-size: 34px;
+  text-align: left;
+  color: #fff;
+  margin-top: 15px;
+  margin-left: 5px;
+  -webkit-transition: .3s ease-in-out;
+  -moz-transition: .3s ease-in-out;
+  -o-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.left, .logo {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.menu-text {
+  margin-top: 23px;
+  text-align: right;
+}
+
+.active {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.page-title {
+  color: #fff;
+  font-size: 130px;
+  margin-top: 150px;
+  text-align: center;
+}
+
+/*because kerning makes me happy*/
+#ct {
+  display: inline;
+  letter-spacing: 5px;
+}
+
+.pact-title-2 {
+  font-size: 35px;
+  letter-spacing: 0;
+  color: #44B2AA;
+  background: #434394;
+  border-top: 1px solid #AAAAD6;
+  border-bottom: 1px solid #AAAAD6;
+  margin-top: -88px;
+}
+
+.pact-title-2 b {
+  color: #eee;
+  font-weight: normal;
+}
+
+.pact-goals {
+  color:#fff;
+  font-size:22px;
+  margin-bottom:5px
+}
+
+.logo-big {
+  /*background: url("../images/logo-full-color-02.png");*/
+  background: url("../images/logo-whitebg.png");
+  background-size: 200px 200px;
+  margin: 0;
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+  -webkit-transition: 2s ease-in-out;
+  -moz-transition: 2s ease-in-out;
+  -o-transition: 2s ease-in-out;
+  transition: 2s ease-in-out;
+}
+
+/*.logo-big:hover {
+  -ms-transform: rotate(1440deg);
+  -webkit-transform: rotate(1440deg);
+  transform: rotate(1440deg);
+}*/
+
+.logo-big-text {
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.section-2 {
+  left: 0;
+  width: 100%;
+}
+
+.about {
+  /*margin-right: 3em;
+  background: #774e9b;*/
+  margin-left: 0px;
+  font-size: 1.2em;
+  text-align: justify;
+}
+
+.study {
+  text-align: center;
+  background: #434394;
+  color: #eee;
+  font-size: 18px;
+}
+
+#study {
+  margin-left: -50px;
+  margin-right: 20px;
+}
+
+.world-div {
+  margin-top: 30px;
+  margin-right: 100px;
+  height: 327px;
+  width: 327px;
+  margin-left: -100px;
+  text-align: center;
+  display: inline-block;
+  background: url("../images/pact-color-logo-big-02.png");
+  background-size: 327px 327px;
+  background-repeat: no-repeat;
+}
+
+.section-2 a:link, .section-2 a:visited {
+  color: #282884;
+}
+
+.about-pact {
+  margin-top: 20px;
+  font-size: 25px;
+  color: #282884;
+  text-align: justify;
+}
+
+.tagline {
+  text-align: center;
+  color: #282884;
+  font-size: 30px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.hopes {
+  font-size: 24px;
+  color: #eee;
+}
+
+.icons {
+  text-align: center;
+}
+
+.icon {
+  background: #282884;
+  border: 2px solid #C0AEE0;
+  height: 100px;
+  width: 100px;
+  border-radius: 60px;
+  display: inline-block;
+  margin: 1em;
+  -webkit-transition: .3s ease-in-out;
+  -moz-transition: .3s ease-in-out;
+  -o-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.icon:hover {
+  -moz-box-shadow: 0 0 50px #44B2AA;
+  -webkit-box-shadow: 0 0 50px #44B2AA;
+  box-shadow: 0px 0px 50px #44B2AA;
+  background: #1E1E51;
+  cursor: pointer;
+  border: #5344A0;
+  text-align: center;
+}
+
+#phone-icon {
+  margin-top: 22px;
+  width: 50px;
+  height: 50px;
+  background: url("../images/icons-03.png");
+  background-size: 50px 50px;
+  background-position: center;
+  display: inline-block;
+}
+
+@media screen and (max-width: 570px) {
+  #phone-icon {
+    margin-top: 10px;
+  }
+}
+
+.icon-center {
+  text-align: center;
+}
+
+.icon-group {
+    margin-top: 15px;
+    margin-bottom: 0px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+}
+
+.icon-group:hover {
+  text-decoration: underline;
+}
+
+.description {
+  text-align: center;
+}
+
+.description b {
+  background: #44B2AA;
+}
+
+.sponsors {
+  background: #73C6C0;
+  color: #000;
+}
+
+.sponsors-div {
+  background: #fff;
+  border-radius: 15px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  -webkit-box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+
+}
+
+.nimh-logo {
+  background: url("../images/nimh_logo.gif");
+  background-size: 224px 55px;
+  width: 224px;
+  height: 55px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.somh-logo {
+  background: url("../images/UNC_SOM.png");
+  background-size: 400px 95px;
+  width: 400px;
+  height: 95px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.pp-progress-logo {
+  background: url("../images/pp-progress-logo.png");
+  background-size: 400px 231px;
+  width: 400px;
+  height: 231px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.found-hope {
+  background: url("http://www.foundationofhopenc.org/wp-content/uploads/2015/03/FOH-Color-e1430510302612.jpg");
+  background-size: 250px 163px;
+  width: 250px;
+  height: 163px;
+  display: inline-block;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer {
+  background: #434394;
+  min-height: 70px;
+  padding: 30px;
+  text-align: center;
+  color: #fff;
+  border-top: 2px solid #AAAAD6;
+}
+
+.social-icon {
+  border: 1px solid #fff;
+  height: 40px;
+  width: 40px;
+  border-radius: 30px;
+  display: inline-block;
+  margin: 10px;
+  -webkit-transition: .3s ease-in-out;
+  -moz-transition: .3s ease-in-out;
+  -o-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.social-media a {
+  color: #fff;
+}
+
+.social-icon:hover {
+  -moz-box-shadow: 0 0 50px #44B2AA;
+  -webkit-box-shadow: 0 0 50px #44B2AA;
+  box-shadow: 0px 0px 50px #44B2AA;
+  cursor: pointer;
+}
+
+.facebook {
+  -webkit-transition: .3s ease-in-out;
+  -moz-transition: .3s ease-in-out;
+  -o-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.facebook:hover, .facebook:active {
+  background: #3b5998;
+}
+
+.twitter:hover, .twitter:active {
+  background: #55ACEE;
+}
+
+.email:hover, .email:active {
+  background: #774e9b;
+}
+
+.fa-facebook, .fa-twitter, .fa-envelope-o {
+  font-size: 25px;
+}
+
+.centered {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%)
+}
+
+.copyright {
+  font-size: 15px;
+  color: #AAAAD6;
+}
+
+.mother-baby {
+  background: url("../images/mother-baby-front-blue.png");
+  background-size: 600px 615px; width: 600px; height: 515px; margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+
+.pact-title-1 {
+  font-size: 90px;
+  /*color: #44B2AA;*/
+  background: #C0AEE0;
+  opacity: .7;
+  color: #282884;
+  width: auto;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -125px;
+  margin-bottom: -25px;
+}
+
+#study {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.radial-bg{
+  margin-bottom: 2em;
+}

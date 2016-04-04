@@ -1,0 +1,152 @@
+h1  {
+  background: #44B2AA;
+  padding: .1em;
+  color: #eee;
+  border-radius: .2em;
+  text-align: center;
+  border-bottom: solid 3px #008080;
+}
+
+h3 {
+  background: #434394;
+  padding: .1em;
+  color: #eee;
+  border-radius: .2em;
+  text-align: center;
+  border-bottom: solid 3px #AAAAD6;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.section-3 {
+  background: #fff;
+  padding: 1em;
+  color: #282884;
+  text-align: center;
+  padding-bottom: 4em;
+}
+
+.articles, .about-icons {
+  text-align: center;
+  background: #73C6C0;
+  padding: 35px;
+}
+.about-ppd-act {
+  margin-top: 1em; min-height: 0; margin-bottom: 3em;
+}
+
+.study {
+  text-align: center;
+  background: #434394;
+  color: #eee;
+  font-size: 18px;
+}
+
+#study {
+  margin-left: -50px;
+  margin-right: 20px;
+}
+
+.section3-title {
+    font-size: 2.5em;
+    margin-top: .4em;
+    color: #282884;
+}
+
+.about-pact2 {
+  margin-top: 40px;
+  font-size: 25px;
+  color: #282884;
+  text-align: justify;
+}
+
+.section-4 {
+  min-height: 400px;
+  height: auto;
+  background: #fff;
+  padding: 2em;
+}
+
+
+.about {
+  /*margin-right: 3em;
+  background: #774e9b;*/
+  margin-left: 0px;
+  font-size: 1.2em;
+  text-align: justify;
+}
+
+.how-help {
+  margin-top: .5em;
+  margin-bottom: .5em;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.about-help {
+  font-size: 1.2em;
+  margin-top: 2px;
+  margin-bottom: 10px;
+}
+
+.help-button {
+  background: #434394;
+  border-radius: 10px;
+  color: #fff;
+  width: 100%;
+  padding: 20px;
+  margin-top: 14px;
+  margin-bottom: 14px;
+  font-size: 17px;;
+  display: inline-block;
+  border-right: 0;
+  border-left: 0;
+  border-top: 0;
+  border-bottom: solid 3px #d8d8d8;
+  -webkit-transition: .3s ease-in-out;
+  -moz-transition: .3s ease-in-out;
+  -o-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.help-button:hover {
+  background: #AAAAD6;
+}
+
+.cta-button {
+  margin-left: 0;
+}
+
+.section-5 {
+    min-height: 300px;
+    background: #fff;
+    width: 100%;
+    padding: 30px;
+}
+
+.pact-image {
+  background: #fff;
+  height: 100px;
+  border: solid 1px #000;
+}
+
+.app {
+  min-height: 400px;
+  text-align: center;
+  background: #44B2AA;
+}
+
+.cta-section {
+  text-align: center;
+  background: #AAAAD6;
+  padding: 35px;
+
+}
+
+.study-container {
+  padding-top: 45px;
+}
+
+.disclaimer {
+  font-size: 20px;
+}
